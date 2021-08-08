@@ -1,0 +1,97 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  height: calc(100vh - 34px);
+
+}
+
+.container h2 {
+  margin: 1rem 0 2rem 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.25rem;
+  color: #066a75;
+}
+
+
+ .container form {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border: 1px solid rgba(147, 184, 189,0.8);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding:1.5rem 0;
+  border-radius:0.25rem;
+}
+
+
+.container h2 {
+  margin: 1rem 0 2rem 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.25rem;
+  color: #066a75;
+}
+
+
+label {
+  font-size:1rem;
+  color: #405c60;
+  margin-right: 19rem;
+}
+
+input[type="text"], .container input[type="password"] {
+  width:350px;
+  height:40px;
+  margin-bottom:1rem;
+  outline:none;
+  font-style: italic;
+  border-radius: 0.25rem;
+  text-indent: 14px;
+  color: #bebcbc;
+  
+}
+
+input[type="submit"] {
+  width:350px;
+  height:40px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 1rem;
+  background: rgb(61,157,179);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  transition: all 0.2s linear;
+  padding:8px 5px;
+  margin-bottom: 2rem;
+}
+
+ input[type="submit"]:hover {
+  background: #4ab3c6;
+}
+
+
+
+
+
+
+

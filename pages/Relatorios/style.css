@@ -1,0 +1,107 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* CLASSE DOS H2 */
+.titles{
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+
+.container {
+  /* width: 100%; */
+  max-width: 800px;
+  margin: 10px auto;
+  border: 1px solid #000;
+  padding: 1.2rem;
+  /* height: auto; */
+}
+
+.container .logo {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  background-color:rgba(24,24,26,0.3);
+  padding: 1rem 0;
+}
+
+.container .content-box {
+  /* padding:10px 0; */
+}
+
+
+.container .content-box .content-information span {
+  display: block;
+  /* margin-bottom: 12px; */
+}
+
+.container .table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.container .table table {
+  /* width: 100%; */
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.container .table table caption {
+  background-color: green;
+  /* padding:3px 0; */
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Quebrar palavra */
+.container .table table textarea {
+  /* width:100%; */
+  word-wrap: break;
+  text-indent: 10px;
+  font-size:14px;
+}
+
+.container .table .more-information{
+  /* padding: 8px; */
+}
+
+.container .table .more-information p {
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+
+.container .table .more-information textarea {
+  width: 100%;
+  resize: none;
+  /* border:none; */
+}
+
+.box-signature {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top:4rem; */
+}
+
+.box-signature .signature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+}
+
+.box-signature .signature p {
+  width: 250px;
+  border-top: 1px solid #000;
+  margin-bottom: 8px;
+}
