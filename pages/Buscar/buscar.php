@@ -6,7 +6,7 @@ require '../../config/config.php';
 $nome = filter_input(INPUT_POST,'nome',FILTER_SANITIZE_SPECIAL_CHARS);
 ?>
 <link rel="stylesheet" href="../../assets/style.css">
-<a class="add" title="Voltar" href="../../index.php" style="margin-left: 2rem;"><i class="fas fa-arrow-left"></i> Voltar</a>
+<a class="add" title="Voltar" href="../Administrativo/adm.php" style="margin-left: 2rem;"><i class="fas fa-arrow-left"></i> Voltar</a>
 
 <?php
 if(isset($_POST['buscar'])): 

@@ -18,7 +18,7 @@ $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
 <header>
   <h2>Clientes</h2>
   <div class="box-search">
-    <form action="./pages/Buscar/buscar.php" method="post">
+    <form action="../Buscar/buscar.php" method="post">
       <input type="text" placeholder="Busque um registro" name="nome" autocomplete="off">
       <input type="submit" value="Buscar" name="buscar">
     </form>

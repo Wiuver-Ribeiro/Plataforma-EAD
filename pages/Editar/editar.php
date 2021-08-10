@@ -39,7 +39,7 @@ $dados = $sql->fetch(PDO::FETCH_ASSOC);
     $sql->execute();
 
       $_SESSION['sucesso'] = "<script>alert('Usuário alterado com sucesso');</script>";
-      header("Location:../../index.php");
+      header("Location:../Administrativo/adm.php");
     
   endif;
 ?>

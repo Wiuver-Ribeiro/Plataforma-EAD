@@ -1,11 +1,11 @@
 <?php session_start();
 require '../../config/config.php'; 
-if(isset($_SESSION['nivel_acesso'])) {
-  echo "<script></script>";
-} else {
-  header("Location: ../Login/login.php");
-  $_SESSION['area_restrita'] = "Área restrita";
-}
+// if(isset($_SESSION['nivel_acesso'])) {
+//   echo "<script></script>";
+// } else {
+//   header("Location: ../Login/login.php");
+//   $_SESSION['area_restrita'] = "Área restrita";
+// }
 ?>
 
 <!DOCTYPE html>

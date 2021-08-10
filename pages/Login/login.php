@@ -3,6 +3,10 @@
     echo $_SESSION['area_restrita'];
     echo $_SESSION['area_restrita'] = '';
   }
+
+  // if(isset($_SESSION['login'])) {
+  //   header('Location:./index.php');
+  // }
 ?>
 
 <!DOCTYPE html>

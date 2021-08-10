@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #242526;
+  height:60px;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo  h1 a{
+  color: #fff;
+}
+
+header .search-user input{
+  width: 340px;
+  height:40px;
+  background-color:#3A3B3C;
+  border: none;
+  text-indent: 10px;
+  border-radius:1rem;
+  outline: 0;
+  color:#fff;
+  font-size: 15px;
+}
+
+header .box-action {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+header .box-action img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+header .box-action .avatar {
+  display: flex;
+  align-items: center;
+}
+header .box-action .avatar a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header .box-action .special{
+  display: inline-flex;
+  width:35px;
+  height:35px;
+  align-items:center;
+  justify-content: center;
+  margin-left: 2rem;
+  background-color: #4E4F50;
+  border-radius: 10px;
+  transition: all linear 0.2s;
+  opacity: 0.9;
+}
+
+header .box-action a:hover {
+  opacity: 1;
+  background-color: #3b3c3d;
+
+}
+
+header ul {
+  display: flex;
+}

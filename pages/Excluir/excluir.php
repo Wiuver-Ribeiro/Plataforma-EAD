@@ -10,5 +10,5 @@ $sql->execute();
 
 if($sql) {
   $_SESSION['excluido'] = "Usuário excluido com sucesso!";
-  header("Location:../../index.php");
+  header("Location:../Administrativo/adm.php");
 }

@@ -1,0 +1,23 @@
+.action-services {
+  width: 200px;
+  height:auto;
+  /* overflow-y: auto; */
+  padding: 1rem;
+  color: #fff;
+}
+
+.action-services ul li {
+  padding: 10px;
+  cursor:pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.action-services ul li:hover {
+  background-color: #4E4F50;
+  border-radius: 5px;
+}
+
+
+.action-services ul li i {
+  padding-right: 12px;
+}

@@ -35,7 +35,7 @@ if (isset($_POST['login'])) :
         $_SESSION['nome'] = $dado['nome'];
 
         //Manda usuario pra tela de usuario
-        header("Location:../../index.php");
+        header("Location:../Dashboard/dashboard.php");
         exit;
       }
     } else {
